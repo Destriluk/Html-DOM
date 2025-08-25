@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+</head>
+<body>
+    <h1 id="myh1">Welcome to DOM</h1>
+    <h2 id="myh2"> This is my first h2</h2>
+    <h2 id="myh3">this is my second h2</h2>
+    <button>enter</button>
+    <script>
+        var h1=document.getElementById("myh1").innerHTML
+        alert(h1)
+        var h2=document.getElementById("myh2")
+        h2.innerHTML = "This has been changed by javascript"
+        var h3=document.getElementById("myh3")
+        h3.innerHTML = "this was removed by javascript"
+    </script>
+</body>
+</html>
